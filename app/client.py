@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 
-api_endpoint = 'http://localhost:5000/predict'
+api_endpoint = 'http://localhost:5001/predict'
 
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_file():

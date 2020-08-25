@@ -93,4 +93,4 @@ if __name__ == "__main__":
 	print("* Loading Keras model and Flask starting server...")
 	load_model()
 	print("* Model Loaded.")
-	app.run()
+	app.run(port=5001)
