@@ -1,4 +1,8 @@
-from app.client import app
+#! /usr/bin/python3
+import sys
+import logging
+logging.basicConfig(stream=sys.stderr)
+sys.path.insert(0,"/var/www/pneumonia_detection_api/app/")
 
-if __name__ == "__main__":
-    app.run()
+from client import app as application
+application.secret_key = "SecretSessionKey"
