@@ -2,10 +2,10 @@ import requests
 import json
 
 # api endpoint
-endpoint_url = 'http://localhost:5000/predict'
+endpoint_url = 'http://localhost:5001/predict'
 
 #test file
-img_path = '/home/archeron/dev/data/chest_xray/chest_xray/test/NORMAL/NORMAL2-IM-0278-0001.jpeg'
+img_path = '/home/ubuntu/pneumonia_detection_api/app/static/img/NORMAL2-IM-0173-0001-0001.jpeg'
 
 # payload
 with open(img_path, "rb") as image:

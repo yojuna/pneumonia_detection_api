@@ -13,6 +13,9 @@ Upload the image from your browser and receive a json response of the model pred
 ## Installation
 
 ```sh
+pip3 install flask
+pip3 install tensorflow
+
 detailed installation instructions to be uploaded.
 ```
 
